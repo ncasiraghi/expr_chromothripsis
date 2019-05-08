@@ -29,10 +29,6 @@ gene_ordering <- read.delim(file = "/icgc/dkfzlsdf/analysis/B260/users/n790i/too
 gene_ordering <- gene_ordering_file[which(gene_ordering$V1 != "MT"),]
 colnames(gene_ordering) <- c("chr","start","end","GeneName","GeneID")
 
-
-
-
-
 ## plot nrm_counts per genomic segment
 chrom <- "7"
 
